@@ -7,7 +7,7 @@ function Works() {
   return (
 <section>
 
-  <h2 className=' text-gray-600 p-4'>Featured Works </h2>
+  <h2 className=' text-gray-500 p-4'>Featured Works </h2>
 
   <div className='flex justify-center items-center md:flex-col'>
     <img src={dashboard} alt="" className=' w-[246px] h-[180px]  md:w-[320px] md:h-[220px] ' />
@@ -33,7 +33,7 @@ function Works() {
 
 
   <div className='flex justify-center items-center md:flex-col'>
-    <img src={days} alt="" className=' w-[246px] h-[180px]  md:w-[320px] md:h-[220px] ' />
+    <img src={days} alt="" className=' w-[246px] h-[180px]  md:w-[220px] md:h-[220px] ' />
     <div className=' m-5'>
       <h2 className='text-3xl font-bold text-dark p-2 '>Designing Dashboard</h2>
       <p className=' text-gray-400 text-[13px] mt-5 p-2'><span className='bg-dark text-white px-2 rounded-xl '>2020</span> Dashboard</p>
