@@ -12,14 +12,14 @@ function Navbar() {
 
   return (
     <>
-      <nav className='p-5'>
+      <nav className='p-4'>
         {/* Render the burger icon for small screens */}
         <div className="md:block hidden">
           <img src={toggle ? close : burger} alt="" onClick={toggleMenu} className='w-[30px] cursor-pointer' />
         </div>
 
         {/* Render the menu items for large screens */}
-        <ul className={`flex md:hidden justify-end gap-5 font-bold transition duration-500 ease-in-out `}>
+        <ul className={`flex md:hidden justify-end gap-5 font-[500] transition duration-500 ease-in-out `}>
           <li className='md:overflow-hidden mr-12 hover:text-pink-500 text-dark'><Link to="/blog">Works</Link></li>
           <li className='md:overflow-hidden mr-12 hover:text-pink-500 text-dark'><Link to="/posts">Blog</Link></li>
           <li className='md:overflow-hidden mr-12 hover:text-pink-500 text-dark'><Link to="/Footer">Contact</Link></li>
